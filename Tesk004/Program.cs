@@ -15,7 +15,7 @@ int Max(int arg1, int arg2, int arg3)
     if(arg3 > result) result = arg3;
     return result;
 }
-//               0   1   2
+//               0      1          2
 int[] array = { arg1 , arg2 , arg3 };
 
 int result = Max(array[0], array[1], array[2]);
