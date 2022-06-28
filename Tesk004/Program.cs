@@ -4,6 +4,10 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
+Console.WriteLine("Введите три числа");
+int arg1 = Convert.ToInt32(Console.ReadLine());
+int arg2 = Convert.ToInt32(Console.ReadLine());
+int arg3 = Convert.ToInt32(Console.ReadLine());
 int Max(int arg1, int arg2, int arg3)
 {
     int result = arg1;
@@ -12,7 +16,7 @@ int Max(int arg1, int arg2, int arg3)
     return result;
 }
 //               0   1   2
-int[] array = { 44 , 5 , 78 };
+int[] array = { arg1 , arg2 , arg3 };
 
 int result = Max(array[0], array[1], array[2]);
 Console.WriteLine(result);
